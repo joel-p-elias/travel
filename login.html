@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="/login.js"></script>
+</head>
+<body>
+    <header>
+        <div id="id_title"><a href="#" class="logo"><span>T</span>ravel</a></div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="image-container" class="sections">
+                <img src="/images/4794658.jpg" alt="">
+            </section>
+            <section id="input-field-container" class="sections">
+                <div class="heading">
+                    <h1><span>L</span>
+                        <span>O</span>
+                        <span>G</span>
+                        <span>I</span>
+                        <span>N</span></h1>
+                          
+                </div>
+
+                <div class="input-container">
+
+                    <form class="form"  id="id_form" onsubmit="return validation()" action="/index-login.html" >
+
+                    <div id="email-field" class="input-control">
+                        
+                        <label for="id_email"><h3>Email</h3></label>
+                        <input type="text" name="email" id="id_email" placeholder="example@email.com">
+                        <div id="email_error" class="error">
+                        </div>
+                        </div>
+                  
+                
+                    <div id="password-field" class="input-control">
+                        <label for="id_password"><h3>Password</h3></label>
+                        <input type="password" name="password" id="id_password" placeholder="password">
+                        <div id="password_error" class="error">
+                        </div>
+                    </div>
+                <div id="btn" class="two_column_field">
+                <a href="/index.html"><button type="submit" >Login</button></a>
+            </div>
+            <div class="forgot-password-and-rememberme">
+                <div class="checkbox"><input type="checkbox" id="rememberme_id" name="remember me"><label for="rememberme_id">remember me</label></div>
+                <a href="#">Forgot Password?</a>
+            </div>
+                <div id="login"><h4><a href="/signup.html">Create an account?</a></h4></div>
+            </form>
+                </div>  
+            </section>
+
+            
+        </div>
+    </main>
+    
+</body>
+</html>

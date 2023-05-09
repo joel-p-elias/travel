@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="/signup.js"></script>
+</head>
+<body>
+    <header>
+        <div id="id_title"><a href="#" class="logo"><span>T</span>ravel</a></div>
+    </header>
+    <main>
+        <div class="container">
+            
+            <section id="input-field-container" class="sections">
+                <div class="heading">
+                    <h1><span>S</span>
+                        <span>I</span>
+                        <span>G</span>
+                        <span>N</span>
+                        <span>U</span>
+                        <span>P</span>      
+                </div>
+                <div class="input-container">
+                    <form class="form"  id="id_form" onsubmit="return validation()" action="/index-login.html">
+
+                    <div id="name_field" class="two_column_field">
+                        <div id="first_name_field" class="input-control">
+                        <label for="id_firstname"><h3>First Name</h3></label>
+                        <input type="text" name="firstname" id="id_firstname" placeholder="chandler">
+                        <div id="fname_error" class="error">
+                        </div>
+                    </div>
+    
+                    <div id="second_name_field" class="input-control">
+                        <label for="id_secondname"><h3>Second Name</h3></label>
+                        <input type="text" name="secondname" id="id_secondname" placeholder="bing">
+                            <div id="sname_error" class="error">
+                            </div>
+                    </div>
+                </div>
+
+                <div id="mobile-and-email-field" class="two_column_field">
+
+                    <div id="mobile-field" class="input-control">
+                        <label for="id_mobile_number"><h3>Mobile Number</h3></label>
+                        <input type="text" name="mobile number" id="id_mobile_number" placeholder="+91">
+                        <div id="mobile_error" class="error">
+                        </div>
+                    </div>
+
+                    <div id="email-field" class="input-control">
+                        <label for="id_email"><h3>Email</h3></label>
+                        <input type="text" name="email" id="id_email" placeholder="example@email.com">
+                        <div id="email_error" class="error">
+                        </div>
+                        </div>
+                </div>
+
+                <div id="password-and-cpassword-field" class="two_column_field">
+
+                    <div id="password-field" class="input-control">
+                        <label for="id_password"><h3>Password</h3></label>
+                        <input type="password" name="password" id="id_password" placeholder="password">
+                        <div id="password_error" class="error">
+                        </div>
+                    </div>
+
+                    <div id="cpassword-field" class="input-control">
+                        <label for="id_cpassword"><h3>Confirm Password</h3></label>
+                        <input type="password" name="confirmpassword" id="id_cpassword" placeholder="confirm password">
+                        <div id="cpassword_error" class="error">
+                        </div>
+                        </div>
+                </div>
+                <div id="btn" class="two_column_field">
+                <button type="submit">Register</button>
+            </div>
+                <div id="login"><h4><a href="/login.html">Already have an account?</a></h4></div>
+            </form>
+                </div>  
+            </section>
+
+            <section id="image-container" class="sections">
+                <img src="/images/signup.jpg" alt="">
+            </section>
+        </div>
+    </main>
+</body>
+</html>

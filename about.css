@@ -1,0 +1,143 @@
+:root{
+    --orange:#ffa500;
+}
+  
+*{
+    font-family: 'Playfair Display', serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+  
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+.logo_and_title{
+    margin-left: 2rem;
+    display: flex;
+   
+  }
+  #id_title{
+    display: flex;
+  align-items: center;
+  }
+  
+  
+  
+  
+  header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#fff;
+    text-transform: uppercase;
+  }
+  
+  header .logo span{
+    color:var(--orange);
+  }
+  
+  header .navbar a{
+    color:#fff;
+    font-size: 2rem;
+    margin:0 .8rem;
+  }
+  
+  header .navbar a:hover{
+    color:var(--orange);
+  }
+  
+  header .icons i{
+    font-size: 2.5rem;
+    color:#fff;
+    cursor: pointer;
+    margin-right: 2rem;
+  }
+  
+  header .icons i:hover{
+    color:var(--orange);
+  }
+header{
+    top: 0; left: 0; right:0;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 1em;
+    border-bottom: .1px solid rgb(214, 214, 214);
+    background:#333;
+ 
+  }
+  header .logo{
+    font-size: 3rem;
+    font-weight: bolder;
+    color:#fff;
+    text-transform: uppercase;
+    margin-left: 5em;
+  }
+  
+  header .logo span{
+    color:var(--orange);
+  }
+.heading{
+    text-align: center;
+    padding:2.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    margin-top: 3em;
+    
+}
+.heading span{
+    font-size: 4.5rem;
+    background:rgba(255, 165, 0,.2);
+    color:var(--orange);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+   
+}
+main{
+    padding: 5em;
+}
+.container{
+    
+    display: flex;
+    width: 100%;
+    
+   
+    border-radius: .5rem;
+}
+section{
+    width: 100%;
+}
+.image-section{
+    display: flex;
+    align-items: center;
+}
+.image-section img{
+    width: 100%;
+}
+.text{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    
+}
+.text p{
+    word-spacing: 1;
+    letter-spacing: .5;
+    color: #666;
+    line-height: 1.5;
+}
